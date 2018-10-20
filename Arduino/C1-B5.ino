@@ -10,8 +10,8 @@ WiFiClient client;
 char server[] = "192.168.1.100"; // IP Address (or name) of server to dump data to
 int  interval = 5000; // Wait between dumps
 
-#define RST_PIN         D3         // Configurable, see typical pin layout above
-#define SS_PIN          D8        // Configurable, see typical pin layout above
+#define RST_PIN         D3
+#define SS_PIN          D8
 
 MFRC522 rfid(SS_PIN, RST_PIN); // Instance of the class
 
